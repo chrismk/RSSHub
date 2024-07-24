@@ -18046,12 +18046,6 @@
         "description": "| 一周口碑电影榜      | 华语口碑剧集榜            |\n  | ------------------- | ------------------------- |\n  | movie_weekly_best | tv_chinese_best_weekly |",
         "location": "other/weekly-best.ts"
       },
-      "/people/:userid/status/:routeParams?": {
-        "path": "/people/:userid/status/:routeParams?",
-        "name": "Unknown",
-        "maintainers": [],
-        "location": "people/status.ts"
-      },
       "/people/:userid/wish/:routeParams?": {
         "path": "/people/:userid/wish/:routeParams?",
         "categories": [
@@ -18075,7 +18069,13 @@
           "exherb"
         ],
         "description": "对于豆瓣用户想看的内容，在 `routeParams` 参数中以 query string 格式设置如下选项可以控制输出的样式\n\n  | 键         | 含义       | 接受的值 | 默认值 |\n  | ---------- | ---------- | -------- | ------ |\n  | pagesCount | 查询页面数 |          | 1      |",
-        "location": "people/wish.ts"
+        "location": "people/movie_wish.ts"
+      },
+      "/people/:userid/status/:routeParams?": {
+        "path": "/people/:userid/status/:routeParams?",
+        "name": "Unknown",
+        "maintainers": [],
+        "location": "people/status.ts"
       }
     },
     "name": "豆瓣",

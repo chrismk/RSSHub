@@ -1743,10 +1743,10 @@
     "numm233",
     "nczitzk"
   ],
-  "/douban/people/:userid/status/:routeParams?": [],
   "/douban/people/:userid/wish/:routeParams?": [
     "exherb"
   ],
+  "/douban/people/:userid/status/:routeParams?": [],
   "/douyin/hashtag/:cid/:routeParams?": [
     "TonyRL"
   ],
