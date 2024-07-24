@@ -18069,7 +18069,7 @@
           "exherb"
         ],
         "description": "对于豆瓣用户想听的内容，在 `routeParams` 参数中以 query string 格式设置如下选项可以控制输出的样式\n\n  | 键         | 含义       | 接受的值 | 默认值 |\n  | ---------- | ---------- | -------- | ------ |\n  | pagesCount | 查询页面数 |          | 1      |",
-        "location": "people/music_wish.ts"
+        "location": "people/music-wish.ts"
       },
       "/people/:userid/status/:routeParams?": {
         "path": "/people/:userid/status/:routeParams?",
